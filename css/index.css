@@ -1,0 +1,94 @@
+body {
+ background-image: url("img/login_page.jpg");
+ background-color: #cccccc;
+ 
+}
+.box{
+    position: absolute;
+  width: 600px;
+  height: 340px;
+  z-index: 15;
+  top: 12%;
+  left: 23%;
+  box-shadow: -50px -50px 500px rgba(255, 0, 0, 0.4);
+  border:0px solid white;
+  padding: 50px;
+  background-color:rgba(8, 2, 5, 0.7)
+
+}
+#food_logo{
+    height:100px;
+    width:100px;
+    margin-left:65px;
+    margin-top: 10;
+    border-radius: 1000px;
+
+}
+.input{
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border-top: none;  
+    border-left: none; 
+    border-right: none; 
+    box-shadow: none;
+    text-align: center; 
+    height:20px;
+    width:250px;
+    margin-top:25px;
+    box-shadow: 0px -160px 300px rgba(51, 255, 51, 0.9);
+}
+.submit{
+    border-radius: 50px;
+    background-color:rgba(0, 0, 0, 0.3);
+    margin-left:18%;
+    margin-top:25px;
+    height:30px;
+    width:150px;
+    color:white;
+}
+.right_box{
+    margin-left:20px;
+    width:250;
+    box-shadow: 550px 0px 500px rgba(233, 236, 9, 0.4);
+}
+.left_box{
+    float:left;
+    width:290px;
+    margin-left:15px;
+    box-shadow: -550px 0px 500px rgba(4, 216, 50, 0.4);
+
+}
+.button{
+    background-color:rgba(15, 4, 4, 0.2);
+    border-radius: 50px;
+    margin-top:29px;
+    margin-left:47px;
+    color:white;
+    box-shadow: 290px 150px 540px rgba(0, 255, 0, 0.9);
+
+}
+::placeholder {
+  color: white;
+  opacity: 1; 
+  text-align: center;
+}
+.border{
+    border: 1px solid white;
+    border-left:none;
+    border-top:none;
+    border-bottom:none;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+a p{
+    margin-left: 25%;
+    margin-top:-2%
+}
+button:hover ,input[type=submit]:hover{
+    background:red
+}
+a p:hover{
+    color:lime
+}

@@ -1,0 +1,52 @@
+.registration-box{
+   
+    margin-left:10px;
+    margin-top:-8%;
+    width:300px;
+    height:480px;
+    padding-left: 33px;
+    box-shadow:-700px -10px 250px  rgba(255, 0, 0, 0.5);
+}
+.box{
+    position: absolute;
+  width: 350px;
+  height: 430px;
+  z-index: 15;
+  top: 4%;
+  left: 33%;
+  box-shadow:  -60px -80px 300px rgba(10, 211, 94, 0.5);
+  padding:50px;
+  background-color:rgba(0, 0, 0, 0.5);
+
+}
+.input{
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border-top: none;  
+    border-left: none; 
+    border-right: none; 
+    box-shadow: none;
+    text-align: left; 
+    height:20px;
+    width:250px;
+    margin-top:35px;
+    margin-left:12px;
+    
+}
+.submit{
+    border-radius: 50px;
+    background-color:rgba(0, 0, 0, 0.3);
+    margin-left:20%;
+    margin-top:45px;
+    height:30px;
+    width:150px;
+    color:white;
+}
+::placeholder {
+  color: white;
+  opacity: 1; 
+  text-align: left;
+}
+input[type=submit]:hover{
+  background:red
+}
