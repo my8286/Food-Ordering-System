@@ -30,7 +30,7 @@ and process all orders efficiently and effectively with minimal delays and confu
 * ```PHP```
 * ```MySql```
 
-## Functionality
+## Functionalities
 * Create an account.
 * Manage their account.
 * Log in to the system.
